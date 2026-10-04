@@ -62,3 +62,15 @@
 # >>> print('The text is normal again. Ah, much better.')
 # The text is normal again. Ah, much better.
 #Terminal clearing
+
+#Sound and text notification
+#import playsound3
+#playsound3.playsound('hello.mp3')
+#This will play hello.mp3 sound
+#the playsound() function will not return until the ausio has finf-ished playing,if the file is a lond audio it will take more time to run the program
+
+#popup message boxes with PyMsgBox
+import pymsgbox
+pymsgbox.alert('Heloo Dharmik')
+pymsgbox.confirm('whats you age')
+pymsgbox.prompt('Whats your name?')
